@@ -1,4 +1,4 @@
-pragma solidity ^0.6.6;
+pragma solidity >=0.6.0 <0.8.0;
 
 /**
     @title ILendingPoolAddressesProvider interface
@@ -7,5 +7,6 @@ pragma solidity ^0.6.6;
 
 interface ILendingPoolAddressesProvider {
     function getLendingPoolCore() external view returns (address payable);
+
     function getLendingPool() external view returns (address);
 }
