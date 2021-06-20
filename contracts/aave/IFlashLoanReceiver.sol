@@ -1,5 +1,8 @@
 pragma solidity >=0.6.0 <0.8.0;
 
+import {ILendingPoolAddressesProvider} from './ILendingPoolAddressesProvider.sol';
+import {ILendingPool} from './ILendingPool.sol';
+
 /**
  * @title IFlashLoanReceiver interface
  * @notice Interface for the Aave fee IFlashLoanReceiver.
